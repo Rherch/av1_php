@@ -1,0 +1,19 @@
+CREATE DATABASE atividade
+
+CREATE TABLE usuarios (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome varchar(100) not null,
+    email varchar(100) not null UNIQUE,
+    senha varchar(100) not null
+    )
+
+
+
+CREATE TABLE alunos (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome varchar(100) not null,
+    email varchar(100) not null UNIQUE,
+    idade varchar(3) not null,
+    contato varchar(20) not null,
+    endereco varchar(100) not null
+    )

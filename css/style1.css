@@ -1,0 +1,46 @@
+#area {
+  position:relative;
+  left:37%;
+  top:10em;
+  width:320px;
+  height:270px;
+}
+
+#area #formulario {
+  display:block;
+}
+
+
+fieldset {
+  width:300px;
+  height:250px;
+}
+
+legend {
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
+
+#formulario label {
+  left:19px;
+  margin-right:5px;
+}
+
+#formulario input.campo_nome {
+  left:95px;
+  top:23px;
+  width:225px;
+}
+
+#formulario input.campo_email {
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+
+#formulario input.btn_submit {
+  border-style:dashed;
+  bottom: 0.5em;
+  right:10px;
+}
